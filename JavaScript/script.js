@@ -42,14 +42,14 @@ console.log(typeof five);
 console.log(typeof six);
 
 //LOGICAL OPERATORS
-var a ="50";
+var a = "50";
 var b = 50;
 var c = 100;
 var d = c % b;
 var e = c / 2;
 
-var expression1 = (b === e);
-var expression2 = (e < d);
+var expression1 = b === e;
+var expression2 = e < d;
 
 //use comparison operators so all expressions log as TRUE
 
@@ -68,45 +68,43 @@ hungerLevel = 50;
 lunchTime = true;
 lunchBill = 11;
 
-if(isSleepy){
- console.log(" i am getting tired")
+if (isSleepy) {
+  console.log(" i am getting tired");
 }
 
 if (hungerLevel > 1) {
-    console.log("Im hungry")
+  console.log("Im hungry");
 } else {
-    console.log("Im OK")
+  console.log("Im OK");
 }
 
 if (!lunchTime) {
-    console.log("time to eat")
+  console.log("time to eat");
 } else {
-    console.log("eat later")
+  console.log("eat later");
 }
 
 if (lunchBill > 10) {
-    console.log("cost 1")
-} else if (lunchBill >= 10 && lunchBill < 15){
-    console.log("cost 2")
-} else{
-console.log("cost 3")
+  console.log("cost 1");
+} else if (lunchBill >= 10 && lunchBill < 15) {
+  console.log("cost 2");
+} else {
+  console.log("cost 3");
 }
 
+// Conditional statements - Practice
+var x = 50;
+var expression3 = x < 25;
+var expression4 = x > 50;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if (expression3 && expression4) {
+  console.log("exp3 : " + expression3);
+  console.log("exp4 : " + expression4);
+  console.log("True ✅ True ✅");
+} else if (expression3) {
+  console.log("True ✅ False❌");
+} else if (expression4) {
+  console.log("False❌ True ✅ ");
+} else if (expression3 == false && expression4 == false) {
+  console.log("False❌ False❌  ");
+}
