@@ -108,3 +108,38 @@ if (expression3 && expression4) {
 } else if (expression3 == false && expression4 == false) {
   console.log("False❌ False❌  ");
 }
+
+// ARRAYS
+// storing 1 piece of data in varaibles.
+
+var pets =  ['Pichi' , 'Diente' , 'Rufo']
+console.log(pets);
+var names = ['Majo ', 'Lou ', 'Pato ', 'Lucho ', 'Ara '];
+console.log(names);
+console.log(names[2]);
+
+var newStudent = 'Jack';
+
+//reassigns value to 'Majo'
+names[0] = 'MariaJose ';
+console.log(names);
+
+names.push('EXTRA');
+console.log('Welcome to class' + ' ' + names);
+
+console.log('Welcome to class' + ' ' + names[0]);
+console.log('Welcome to class' + ' ' + names[1]);
+console.log('Welcome to class' + ' ' + names[2]);
+console.log('Welcome to class' + ' ' + names[3]);
+console.log('Welcome to class' + ' ' + names[4]);
+
+console.log(names.length);
+
+console.log('new student ' + newStudent);
+
+
+
+
+
+
+
