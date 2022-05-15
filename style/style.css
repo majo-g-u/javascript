@@ -1,0 +1,60 @@
+/* includes the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+}
+
+#fixed {
+  position: fixed;
+  float: left;
+  top: 0;
+  left: 0;
+  padding: 40px;
+  margin: 0;
+  text-align: center;
+  background: #eee;
+}
+
+/*resize all the ocntent, it wraps everything up */
+.wrapper {
+  width: 600px;
+  padding: 20px;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 56px;
+  line-height: 45px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+#relative {
+  position: relative;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #666;
+}
+
+#absolute {
+  position: absolute;
+  padding: 20px;
+  width: 250px;
+  bottom: 0;
+  right: -30px;
+  text-align: center;
+  background: #999;
+}
